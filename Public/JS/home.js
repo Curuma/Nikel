@@ -98,7 +98,6 @@ function getCashIn() {
         </div>
         `
         }
-
         document.getElementById("cash-in-list").innerHTML = cashInHtml;
     }
 }
@@ -136,7 +135,6 @@ function getCashOut() {
             </div>
             `
         }
-
         document.getElementById("cash-out-list").innerHTML = cashInHtml;
     }
 }
@@ -153,7 +151,6 @@ function getTotal() {
             total -= item.value;
         }
     });
-
     document.getElementById("total").innerHTML = `R$ ${total.toFixed(2)}`;
 }
 
