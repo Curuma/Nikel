@@ -85,7 +85,6 @@ function getTransactions() {
     document.getElementById("transactions-list").innerHTML = transactionsHTML;
 }
 
-
 function saveData(data) {
     localStorage.setItem(data.login, JSON.stringify(data));
 }
